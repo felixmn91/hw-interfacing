@@ -1,0 +1,8 @@
+prefix=/home/fnaser/catkin_ws/install
+
+Name: microstrain_3dmgx1_imu
+Description: Description of microstrain_3dmgx1_imu
+Version: 0.0.1
+Cflags: -I/home/fnaser/catkin_ws/install/include
+Libs: -L/home/fnaser/catkin_ws/install/lib 
+Requires: 

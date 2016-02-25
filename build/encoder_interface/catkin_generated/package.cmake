@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "encoder_interface")
+set(encoder_interface_MAINTAINER "fnaser <fnaser@todo.todo>")
+set(encoder_interface_DEPRECATED "")
+set(encoder_interface_VERSION "0.0.0")
+set(encoder_interface_BUILD_DEPENDS "rospy")
+set(encoder_interface_RUN_DEPENDS "rospy")
+set(encoder_interface_BUILDTOOL_DEPENDS "catkin")

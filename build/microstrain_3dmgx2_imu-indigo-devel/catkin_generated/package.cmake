@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "microstrain_3dmgx2_imu")
+set(microstrain_3dmgx2_imu_MAINTAINER "Chad Rockey <chadrockey@gmail.com>")
+set(microstrain_3dmgx2_imu_DEPRECATED "")
+set(microstrain_3dmgx2_imu_VERSION "1.5.12")
+set(microstrain_3dmgx2_imu_BUILD_DEPENDS "roscpp" "log4cxx" "message_generation" "sensor_msgs" "self_test" "diagnostic_updater" "tf" "std_srvs" "std_msgs")
+set(microstrain_3dmgx2_imu_RUN_DEPENDS "roscpp" "log4cxx" "message_runtime" "sensor_msgs" "self_test" "diagnostic_updater" "tf" "std_srvs" "std_msgs")
+set(microstrain_3dmgx2_imu_BUILDTOOL_DEPENDS "catkin")

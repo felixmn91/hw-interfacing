@@ -1,0 +1,8 @@
+prefix=/home/fnaser/catkin_ws/install
+
+Name: encoder_interface
+Description: Description of encoder_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fnaser/catkin_ws/install/lib 
+Requires: 

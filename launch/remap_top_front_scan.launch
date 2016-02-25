@@ -1,0 +1,3 @@
+<launch>
+  <remap from="scan" to="top_front_scan" />
+</launch>

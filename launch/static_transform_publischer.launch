@@ -1,0 +1,7 @@
+<launch>
+
+        <node pkg="tf" type="static_transform_publisher" name="base_link_to_base_laser" args="0 0 1 0 0 0 1 base_link laser 100" />
+
+        <remap from="scan" to="front_top_scan" />
+
+</launch>

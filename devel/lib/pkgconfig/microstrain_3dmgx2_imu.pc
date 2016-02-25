@@ -1,0 +1,8 @@
+prefix=/home/fnaser/catkin_ws/devel
+
+Name: microstrain_3dmgx2_imu
+Description: Description of microstrain_3dmgx2_imu
+Version: 1.5.12
+Cflags: -I/home/fnaser/catkin_ws/devel/include -I/home/fnaser/catkin_ws/src/microstrain_3dmgx2_imu-indigo-devel/include
+Libs: -L/home/fnaser/catkin_ws/devel/lib -l3dmgx2 -l:/usr/lib/liblog4cxx.so
+Requires: message_runtime roscpp sensor_msgs self_test diagnostic_updater tf std_srvs std_msgs
