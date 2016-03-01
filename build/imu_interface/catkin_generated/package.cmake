@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "imu_interface")
+set(imu_interface_MAINTAINER "fnaser <fnaser@todo.todo>")
+set(imu_interface_DEPRECATED "")
+set(imu_interface_VERSION "0.0.0")
+set(imu_interface_BUILD_DEPENDS "rospy")
+set(imu_interface_RUN_DEPENDS "rospy")
+set(imu_interface_BUILDTOOL_DEPENDS "catkin")
