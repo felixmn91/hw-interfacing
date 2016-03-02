@@ -1,2 +1,2 @@
-encoder_interface:imu_interface:microstrain_3dmgx1_imu:microstrain_3dmgx2_imu-indigo-devel:sick_tim
+encoder_interface:imu_3dm_gx4-master:sick_tim
 -DCATKIN_DEVEL_PREFIX=/home/fnaser/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/fnaser/catkin_ws/install -G Unix Makefiles

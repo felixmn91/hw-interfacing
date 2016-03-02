@@ -118,10 +118,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/fnaser/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/fnaser/catkin_ws/build/encoder_interface/cmake_install.cmake")
-  INCLUDE("/home/fnaser/catkin_ws/build/imu_interface/cmake_install.cmake")
-  INCLUDE("/home/fnaser/catkin_ws/build/microstrain_3dmgx1_imu/cmake_install.cmake")
+  INCLUDE("/home/fnaser/catkin_ws/build/imu_3dm_gx4-master/cmake_install.cmake")
   INCLUDE("/home/fnaser/catkin_ws/build/sick_tim/cmake_install.cmake")
-  INCLUDE("/home/fnaser/catkin_ws/build/microstrain_3dmgx2_imu-indigo-devel/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

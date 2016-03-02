@@ -346,13 +346,19 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
+imu_3dm_gx4_BINARY_DIR:STATIC=/home/fnaser/catkin_ws/build/imu_3dm_gx4-master
+
+//Value Computed by CMake
+imu_3dm_gx4_SOURCE_DIR:STATIC=/home/fnaser/catkin_ws/src/imu_3dm_gx4-master
+
+//Value Computed by CMake
 imu_interface_BINARY_DIR:STATIC=/home/fnaser/catkin_ws/build/imu_interface
 
 //Value Computed by CMake
 imu_interface_SOURCE_DIR:STATIC=/home/fnaser/catkin_ws/src/imu_interface
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
+lib:FILEPATH=/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -556,7 +562,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

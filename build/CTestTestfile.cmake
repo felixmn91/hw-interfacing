@@ -6,7 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(encoder_interface)
-SUBDIRS(imu_interface)
-SUBDIRS(microstrain_3dmgx1_imu)
+SUBDIRS(imu_3dm_gx4-master)
 SUBDIRS(sick_tim)
-SUBDIRS(microstrain_3dmgx2_imu-indigo-devel)
